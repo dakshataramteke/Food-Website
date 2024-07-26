@@ -36,7 +36,11 @@
     .top-banner{
         padding: 10.875rem 0 9.375rem;
     }
-    
+    /* Story Section  */
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
 
 }
 @media(max-width:330px){
