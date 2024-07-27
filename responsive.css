@@ -21,6 +21,10 @@
     .top-banner{
         padding: 9.375rem 0 9.375rem;
     }
+    /* Carousel Design  */
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
 
 }
 @media(max-width:767px){
@@ -41,8 +45,27 @@
         height: auto;
         padding: 3rem 0;
     }
+    /* Carousel Design  */
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+    /* Newsletter  */
+    .newsletter{
+        width: 75%;
+    }
+    .newsletter .main_btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    /* Footer  */
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
 
 }
 @media(max-width:330px){
-
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
 }
